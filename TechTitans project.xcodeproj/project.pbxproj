@@ -72,7 +72,7 @@
 				74E289CF2A7C22F9003072EC /* Chapter 2 */,
 				74E289D02A7C22FF003072EC /* Chapter 3 */,
 				74E289D12A7C2307003072EC /* Chapter 4 */,
-				74E289D22A7C230C003072EC /* Chapter 5 */,
+				74E289D22A7C230C003072EC /* Keon Results 5 */,
 			);
 			path = CLIStoryTemplate;
 			sourceTree = "<group>";
@@ -109,12 +109,12 @@
 			path = "Chapter 4";
 			sourceTree = "<group>";
 		};
-		74E289D22A7C230C003072EC /* Chapter 5 */ = {
+		74E289D22A7C230C003072EC /* Keon Results 5 */ = {
 			isa = PBXGroup;
 			children = (
 				74E289CC2A7C222C003072EC /* Chapter5.swift */,
 			);
-			path = "Chapter 5";
+			path = "Keon Results 5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3UR85MK9RT;
+				DEVELOPMENT_TEAM = RQ93Y5FB92;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -315,7 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3UR85MK9RT;
+				DEVELOPMENT_TEAM = RQ93Y5FB92;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
