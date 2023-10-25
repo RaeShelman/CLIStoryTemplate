@@ -7,4 +7,5 @@ import Foundation
 
 func chapterThree() {
     // Your portion of the story goes here
+    //This is for the middle portion of the story
 }
