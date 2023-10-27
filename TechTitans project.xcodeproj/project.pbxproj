@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0232A4AD2AEA98AB00524567 /* practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232A4AC2AEA98AB00524567 /* practice.swift */; };
 		74E289BE2A7C21FC003072EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289BD2A7C21FC003072EC /* main.swift */; };
 		74E289C52A7C220C003072EC /* Chapter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C42A7C220C003072EC /* Chapter1.swift */; };
 		74E289C72A7C2211003072EC /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E289C62A7C2211003072EC /* Chapter2.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0232A4AC2AEA98AB00524567 /* practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice.swift; sourceTree = "<group>"; };
 		74E289BA2A7C21FC003072EC /* TechTitans project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TechTitans project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E289BD2A7C21FC003072EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		74E289C42A7C220C003072EC /* Chapter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		74E289B12A7C21FC003072EC = {
 			isa = PBXGroup;
 			children = (
+				0232A4AC2AEA98AB00524567 /* practice.swift */,
 				74E289BC2A7C21FC003072EC /* CLIStoryTemplate */,
 				74E289BB2A7C21FC003072EC /* Products */,
 			);
@@ -145,7 +148,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					74E289B92A7C21FC003072EC = {
 						CreatedOnToolsVersion = 14.3;
@@ -178,6 +181,7 @@
 				74E289BE2A7C21FC003072EC /* main.swift in Sources */,
 				74E289CB2A7C2221003072EC /* Chapter4.swift in Sources */,
 				74E289C52A7C220C003072EC /* Chapter1.swift in Sources */,
+				0232A4AD2AEA98AB00524567 /* practice.swift in Sources */,
 				74E289C72A7C2211003072EC /* Chapter2.swift in Sources */,
 				74E289C92A7C221D003072EC /* Chapter3.swift in Sources */,
 				74E289CD2A7C222C003072EC /* Chapter5.swift in Sources */,
@@ -220,9 +224,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -280,9 +286,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -304,7 +312,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQ93Y5FB92;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = YJ8342SBGN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -315,7 +324,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQ93Y5FB92;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = YJ8342SBGN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
