@@ -4,28 +4,29 @@
 //
 
 import Foundation
+//let storyTitle = "The Quest for Darkness"
+let Alex = "Alex"
+let Mia = "Mia"
+let Jake = "Jake"
+let Lily = "Lily"
+let Max = "Max"
+var AlexAge = 14
+var MiaAge = 14
+var JakeAge = 14
+var LilyAge = 14
+var MaxAge = 14
+let AlexEyesisblue = true
+let numberOfCharacters = 5
 
+var characters = ["Alex", "Mia", "Jake", "Lily", "Max"]
+let AlexAbility = "strategist"
+let MiaAbility = "archer"
+let JakeAbility = "warrior"
+let LilyAbility = "healer"
+let MaxAbility = "nature boy"
 func chapterTwo() {
     
-    let storyTitle = "The Quest for Darkness"
-    let Alex = "Alex"
-    let Mia = "Mia"
-    let Jake = "Jake"
-    let Lily = "Lily"
-    let Max = "Max"
-    var AlexAge = 14
-    var MiaAge = 14
-    var JakeAge = 14
-    var LilyAge = 14
-    var MaxAge = 14
-    let AlexEyesisblue = true
-    let numberOfCharacters = 5
     
-    let AlexAbility = "strategist"
-    let MiaAbility = "archer"
-    let JakeAbility = "warrior"
-    let LilyAbility = "healer"
-    let MaxAbility = "nature boy"
     
     func performAbilityStrategist(nameOfCharacter: String){
         print("strategist")
@@ -61,8 +62,7 @@ func chapterTwo() {
     print ("Their bond grew stronger as they delved further into the forest, and their belief in their mission remained unshaken. Each member of the group had a unique skill that proved invaluable: there was Alex, the brilliant strategist; Mia, a skilled archer; Jake, a fearless warrior; Lily, a talented healer; and Max, who possessed a deep connection with nature.")
     
     
-    var characters = ["Alex", "Mia", "Jake", "Lily", "Max"]
-    
+     
     //The journey was far from easy. As they ventured deeper into the dense, ancient forest,
     
     //they encountered a series of traps and challenges.
