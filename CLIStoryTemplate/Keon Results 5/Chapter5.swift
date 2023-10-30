@@ -5,17 +5,49 @@
 
 import Foundation
 
-let storyTitle = "The Quest for Darkness"
+// Arrays, Sets
+
+var myTitle: String = "The Quest for Darkness"
+//func doSomething(value: String, title2: String)) {
+//}
+//do Something(value: (myTitle, myTitle2))
+
+//Custom data model
+//struct TitlesModel {
+//let title1: String
+//let title2: String
+//}
+// func do Something(value: TitlesMode1) {
+//}
+
+// -------------------------
+
+//let apple: String =  "Apple"
+//let orange: String = "Orange"
+
+//let fruits: [String] = ["Apple", "Orange"]
+//let fruits2: [String] = [apple, orange]
+//let fruits3: Appray<String> = [apple, orange]
+
+//let myBools: [Bool] = [true, false, true, true, true, false]
+
+// func doSomething(value: [String]) {
+//}
+
+//let fruitsArray: [String] = ["Apple", "Orange", "Banana", "Mango"]
+//doSomething(value: TitlesMode1(title1: myTiutle, title2: my))
 let numberOfCharactersRemaining = 5
 
 func chapterFive() {
-    // print("In conclusion, with all the obstacles faced, Our characters saved the day and now reached their true potential.")
+    // In conclusion, with all the obstacles faced, Our characters saved the day and now reached their true potential.
     print("Our friends have returned to town to face the evil darkness, Alex and the gang have gained the power to defeat the dark entity. ")
     // summary: "Their heroic deeds saved not only their town but the entire world from the ancient evil's threat. The town welcomed them back as heroes, celebrating their bravery and unwavering spirit. The teenagers, once just ordinary kids, were now known as the saviors of their town, forever immortalized in the annals of history as The Guardians of Light. Their journey had transformed them, not only into heroes but also into lifelong friends, forever bound by the memory of their epic quest.")
           
             print("*NARRATOR SPEAKING*")
-          print(" As the battle with the Shadowlord concluded, and the darkness receded, the five friends stood amidst the now-peaceful forest, their hearts still racing from the intensity of the struggle. The weight of their heroic actions hung in the air, and a sense of accomplishment filled their hearts.")
-
+          print(" *As the battle with the Shadowlord concluded, and the darkness receded, the five friends stood amidst the now-peaceful forest, their hearts still racing from the intensity of the struggle. The weight of their heroic actions hung in the air, and a sense of accomplishment filled their hearts.*")
+    
+        print("A sign of relief, our heroes journey has concluded. ")
+    
           print("Lily, the group's gifted healer, broke the silence with a gentle smile. 'We did it,' she said, her eyes filled with gratitude. 'We've not only saved Everwood, but the entire world.'")
 
           print("Max, who possessed a deep connection with nature, nodded in agreement. 'And we did it together. The bond we've formed is unbreakable.'")
@@ -53,5 +85,11 @@ func chapterFive() {
         // Keep this portion as a reference
 // This is the results portion of the story
                 //Turned into story with dialog
-    
+    //Apply functions into story arc
 
+// Apply this funciton
+// let bandMemberCount = 5
+// let weightPerPerson = 50
+// maximumTripCount = 2
+
+// Add ending where characters meet their creators through a portle.
