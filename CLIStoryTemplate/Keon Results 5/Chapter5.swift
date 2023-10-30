@@ -5,7 +5,37 @@
 
 import Foundation
 
-let storyTitle = "The Quest for Darkness"
+// Arrays, Sets
+
+var myTitle: String = "The Quest for Darkness"
+//func doSomething(value: String, title2: String)) {
+//}
+//do Something(value: (myTitle, myTitle2))
+
+//Custom data model
+//struct TitlesModel {
+//let title1: String
+//let title2: String
+//}
+// func do Something(value: TitlesMode1) {
+//}
+
+// -------------------------
+
+//let apple: String =  "Apple"
+//let orange: String = "Orange"
+
+//let fruits: [String] = ["Apple", "Orange"]
+//let fruits2: [String] = [apple, orange]
+//let fruits3: Appray<String> = [apple, orange]
+
+//let myBools: [Bool] = [true, false, true, true, true, false]
+
+// func doSomething(value: [String]) {
+//}
+
+//let fruitsArray: [String] = ["Apple", "Orange", "Banana", "Mango"]
+//doSomething(value: TitlesMode1(title1: myTiutle, title2: my))
 let numberOfCharactersRemaining = 5
 
 func chapterFive() {
@@ -15,7 +45,9 @@ func chapterFive() {
           
             print("*NARRATOR SPEAKING*")
           print(" *As the battle with the Shadowlord concluded, and the darkness receded, the five friends stood amidst the now-peaceful forest, their hearts still racing from the intensity of the struggle. The weight of their heroic actions hung in the air, and a sense of accomplishment filled their hearts.*")
-
+    
+        print("A sign of relief, our heroes journey has concluded. ")
+    
           print("Lily, the group's gifted healer, broke the silence with a gentle smile. 'We did it,' she said, her eyes filled with gratitude. 'We've not only saved Everwood, but the entire world.'")
 
           print("Max, who possessed a deep connection with nature, nodded in agreement. 'And we did it together. The bond we've formed is unbreakable.'")
@@ -55,4 +87,9 @@ func chapterFive() {
                 //Turned into story with dialog
     //Apply functions into story arc
 
+// Apply this funciton
+// let bandMemberCount = 5
+// let weightPerPerson = 50
+// maximumTripCount = 2
 
+// Add ending where characters meet their creators through a portle.
