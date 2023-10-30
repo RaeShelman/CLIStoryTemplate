@@ -4,22 +4,22 @@
 //
 
 import Foundation
-
+ 
 func chapterOne() {
     
     let storyTitle = "The Quest for Darkness"
-    let nameOfCharacterOne = "Alex"
-    let nameOfCharacterTwo = "Mia"
-    let nameOfCharacterThree = "Jake"
-    let nameOfCharacterFour = "Lily"
-    let nameOfCharacterFive = "Max"
-    var AlexAge = 14
-    var MiaAge = 14
-    var JakeAge = 14
-    var LilyAge = 14
-    var MaxAge = 14
-    let AlexEyesisblue = true
-    let numberOfCharacters = 5
+    _ = "Alex"
+    _ = "Mia"
+    _ = "Jake"
+    _ = "Lily"
+    _ = "Max"
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = true
+    _ = 5
     
     
     // print ("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, a group of five teenagers stumbled upon a mysterious, dusty old book in the town's long-forgotten library. The book was filled with tales of a mythical evil that had once terrorized their peaceful town centuries ago. The evil, known as 'The Shadowlord', was said to be a dark force that threatened to consume not only the town but the entire world.")
