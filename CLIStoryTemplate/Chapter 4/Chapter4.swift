@@ -4,8 +4,8 @@
 //
 
 import Foundation
- 
-    
+
+
 //let storyTitle = "The Quest for Darkness"
 let numberOfCharacterRemaining = 5
 var shadowlorddefeated = true
@@ -16,14 +16,18 @@ var wearingShields = true
 struct Ragdoll {
     func silence() {
         print("...")
-    func chapterFour() {
+    }
+}
+
+
+func chapterFour() {
     // Your portion of the story goes here
     // Summary goes here
     
     
-    print("Finally, after many trials and tribulations, The Guardians of Light reached the heart of the forest, where the ancient tales said the Shadowlord resided. A great, ominous darkness engulfed the area, but they pushed forward. The evil itself, a looming, shape-shifting mass of pure darkness, emerged from the shadows and attacked them.")
+    //print("Finally, after many trials and tribulations, The Guardians of Light reached the heart of the forest, where the ancient tales said the Shadowlord resided. A great, ominous darkness engulfed the area, but they pushed forward. The evil itself, a looming, shape-shifting mass of pure darkness, emerged from the shadows and attacked them.")
     
-    print("In a climactic battle, the group combined their strengths and used the wisdom they had gained from the book to combat the evil. It was a fierce and exhausting struggle, but their unity and determination prevailed. With a powerful, final blow, they vanquished the Shadowlord and watched as the darkness dissipated, leaving only a peaceful forest behind.")
+    //print("In a climactic battle, the group combined their strengths and used the wisdom they had gained from the book to combat the evil. It was a fierce and exhausting struggle, but their unity and determination prevailed. With a powerful, final blow, they vanquished the Shadowlord and watched as the darkness dissipated, leaving only a peaceful forest behind.")
     if numberOfProjectiles == 12 {
         // The creature is defeated.
     }
@@ -39,7 +43,7 @@ struct Ragdoll {
     print("The group managed to dodge each projectile with there shields")
     print("The force from the shields deflected the Shadowlord's attacks.")
     
-     
+    
     if wearingShields && notwearingshields {
         // The Guardians of Light were able to dodge the projectiles and continue their adventure.
     }
@@ -88,16 +92,15 @@ struct Ragdoll {
         print("The Guardians of Light were forced to retreat, knowing they needed more strength and wisdom to face the malevolent force.")
         print("The shadow lord has given our heroes a tough time, wounded one of the party members.")
     }
-        //    # Character Dialogue
-        print("\nAlex: We underestimated the Shadowlord.")
-        print("Mia: We'll return stronger and better prepared.")
-        print("Jake: This isn't over; we'll be back.")
-        print("Lily: Our journey will continue.")
-        print("Max: Nature will guide us next time.")
-        
-        //   if "__name__" == "__main__": {
-        // main()
-    }
+    //    # Character Dialogue
+    print("\nAlex: We underestimated the Shadowlord.")
+    print("Mia: We'll return stronger and better prepared.")
+    print("Jake: This isn't over; we'll be back.")
+    print("Lily: Our journey will continue.")
+    print("Max: Nature will guide us next time.")
     
-    //These are out story templetes, Now it's time to our thesis into a story.
+    //   if "__name__" == "__main__": {
+    // main()
+}
 
+//These are out story templetes, Now it's time to our thesis into a story.
