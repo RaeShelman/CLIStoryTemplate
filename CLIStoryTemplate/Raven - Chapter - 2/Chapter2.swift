@@ -24,6 +24,7 @@ let MiaAbility = "archer"
 let JakeAbility = "warrior"
 let LilyAbility = "healer"
 let MaxAbility = "nature boy"
+let obstacles = ["Thorny Vines", "Quicksand Pits","Enchanted Trees", "Misty Illusions", "Dark Creatures"]
 func chapterTwo() {
     
     
@@ -56,98 +57,111 @@ func chapterTwo() {
     // Your portion of the story goes here
     print ("The journey was far from easy. As they ventured deeper into the dense, ancient forest, they encountered a series of traps and challenges. Vicious, thorny vines snaked across their path, attempting to ensnare them, while treacherous quicksand pits threatened to swallow them whole. Yet, the group's courage and unwavering friendship helped them overcome these obstacles.")
     
+    
+    
     //put dig
-
+    
     
     print ("Their bond grew stronger as they delved further into the forest, and their belief in their mission remained unshaken. Each member of the group had a unique skill that proved invaluable: there was Alex, the brilliant strategist; Mia, a skilled archer; Jake, a fearless warrior; Lily, a talented healer; and Max, who possessed a deep connection with nature.")
     
     
-     
+    
     //The journey was far from easy. As they ventured deeper into the dense, ancient forest,
     
     //they encountered a series of traps and challenges.
-//    
-//    print("The journey was far from easy. As they ventured deeper into the dense, ancient forest,")
-//    print("they encountered a series of traps and challenges.")
+    //
+    //    print("The journey was far from easy. As they ventured deeper into the dense, ancient forest,")
+    //    print("they encountered a series of traps and challenges.")
     
     //Dialogue and character reactions
     
-    for character in characters {
+    
+    
+    for obstacle in obstacles {
+        print("The characters are presented with \(obstacles) in the forest.")
         
-        if character == "Alex" {
-            print("Keep your wits about you, everyone. Watch out for those thorny vines!")
+        if obstacle == "Thorny Vines" {
+            print("The trechous vines has caused our group to slow down")
         }
+    }
         
-        if character == "Mia" {
-            print("I'll use my keen archery skills to clear the path. Stay close, team!")
-        }
-        
-        if character == "Jake" {
-            print("No challenge is too great for us! We'll conquer these obstacles together!")
-        }
-        
-        if character == "Lily" {
-            print("If anyone gets hurt, I'm here to heal your wounds. We can do this!")
-        }
-        
-        if character == "Max" {
-            print("Nature will guide us. Trust the forest, and it will protect us.")
-        }
-        
-        
-        
-        
-        
-        
-        
-        //
-        
-        //Vicious, thorny vines snaked across their path, attempting to ensnare them,
-        
-        //while treacherous quicksand pits threatened to swallow them whole.
-        
-        print("Vicious, thorny vines snaked across their path, attempting to ensnare them,")
-        print("while treacherous quicksand pits threatened to swallow them whole.")
-        
-        //Dialogue and character reactions
-        
-        //for character in characters:
-        print("{character}:"," ")
-        if character == "Alex"{
-            print("Watch your step, and keep those vines at bay!")
-        }
-        else if character == "Mia"{
-            print("Arrows at the ready! I'll clear a path through the vines.")
-        }
-        else if character == "Jake" {
-            print("I've got a plan. Lily, Max, stay close, and we'll navigate the quicksand safely.")
-        }
-        else if character == "Lily" {
-            print("Don't worry; I'll mend any scrapes and bruises along the way.")
-        }
-        else if character == "Maź" {
-            print("Nature, lend us your strength to overcome these obstacles!")
-        }
-                            
-                            // Yet, the group's courage and unwavering friendship helped them overcome these obstacles.
-                            
-                            print("Yet, the group's courage and unwavering friendship helped them overcome these obstacles.")
-                            }
-            // what types of challenges will they come across? make this a bool if we go this way we'll get this challenge, if we go another way, we'll get another challenge.
-            // use a certain weapon to defeat the obstacle (variable)
+        for character in characters {
             
-            //how do you name the unique skills each character has that can be used along their journey.
-            //i believe we would use "LET" (constant)
+            if character == "Alex" {
+                print("Keep your wits about you, everyone. Watch out for those thorny vines!")
+            }
             
+            if character == "Mia" {
+                print("I'll use my keen archery skills to clear the path. Stay close, team!")
+            }
+            
+            if character == "Jake" {
+                print("No challenge is too great for us! We'll conquer these obstacles together!")
+            }
+            
+            if character == "Lily" {
+                print("If anyone gets hurt, I'm here to heal your wounds. We can do this!")
+            }
+            
+            if character == "Max" {
+                print("Nature will guide us. Trust the forest, and it will protect us.")
+            }
+            
+            
+            
+            
+            
+            
+            
+            //
+            
+            //Vicious, thorny vines snaked across their path, attempting to ensnare them,
+            
+            //while treacherous quicksand pits threatened to swallow them whole.
+            
+            print("Vicious, thorny vines snaked across their path, attempting to ensnare them,")
+            print("while treacherous quicksand pits threatened to swallow them whole.")
+            
+            //Dialogue and character reactions
+            
+            //for character in characters:
+            print("{character}:"," ")
+            if character == "Alex"{
+                print("Watch your step, and keep those vines at bay!")
+            }
+            else if character == "Mia"{
+                print("Arrows at the ready! I'll clear a path through the vines.")
+            }
+            else if character == "Jake" {
+                print("I've got a plan. Lily, Max, stay close, and we'll navigate the quicksand safely.")
+            }
+            else if character == "Lily" {
+                print("Don't worry; I'll mend any scrapes and bruises along the way.")
+            }
+            else if character == "Maź" {
+                print("Nature, lend us your strength to overcome these obstacles!")
+            }
+            
+            // Yet, the group's courage and unwavering friendship helped them overcome these obstacles.
+            
+            print("Yet, the group's courage and unwavering friendship helped them overcome these obstacles.")
+        }
+        // what types of challenges will they come across? make this a bool if we go this way we'll get this challenge, if we go another way, we'll get another challenge.
+        // use a certain weapon to defeat the obstacle (variable)
+        
+        //how do you name the unique skills each character has that can be used along their journey.
+        //i believe we would use "LET" (constant)
+        
         
     }
+    
+    //
+    //if condion {
+    //
+    //    code goes here
+    //} else if condition {
+    //
+    //}
+    
+    
 
-//
-//if condion {
-//    
-//    code goes here
-//} else if condition {
-//    
-//}
-
- 

@@ -4,6 +4,8 @@
 //
 
 import Foundation
+ 
+    
 //let storyTitle = "The Quest for Darkness"
 let numberOfCharacterRemaining = 5
 var shadowlorddefeated = true
@@ -11,7 +13,10 @@ var numberOfProjectiles = 12
 var listOfTools = ["Backpacks", "Flashlight", "Compass", "Shield"]
 var notwearingshields = false
 var wearingShields = true
-func chapterFour() {
+struct Ragdoll {
+    func silence() {
+        print("...")
+    func chapterFour() {
     // Your portion of the story goes here
     // Summary goes here
     
@@ -26,7 +31,9 @@ func chapterFour() {
     print("Along the way, the group stumbled across a worn out rag doll and put it in their inventory. ")
     
     listOfTools.append("Rag doll")
-    // Possibly from the last group who was here.
+    let fido = Ragdoll()
+    fido.silence()
+    //...    // Possibly from the last group who was here.
     
     print("As the group ventured through the forest, projectiles started coming towards them.")
     print("The group managed to dodge each projectile with there shields")
