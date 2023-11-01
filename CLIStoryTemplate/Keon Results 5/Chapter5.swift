@@ -10,6 +10,7 @@ import Foundation
 var myTitle: String = "The Quest for Darkness"
 //func doSomething(value: String, title2: String)) {
 //}
+let people = ["kyle, ken"]
 //do Something(value: (myTitle, myTitle2))
 
 //Custom data model
@@ -37,9 +38,26 @@ var myTitle: String = "The Quest for Darkness"
 //let fruitsArray: [String] = ["Apple", "Orange", "Banana", "Mango"]
 //doSomething(value: TitlesMode1(title1: myTiutle, title2: my))
 let numberOfCharactersRemaining = 5
+ struct Person {
+    var name: String
+    var age: Int
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    let friends = ["Alex", "Mia", "Jake", "Lily", "Max"]
+
+    }
+}
 
 func chapterFive() {
     // In conclusion, with all the obstacles faced, Our characters saved the day and now reached their true potential.
+    //Instance of Person:
+    var Alex = Person(name: "Alex", age: 14)
+    var Mia = Person(name: "Mia", age: 14)
+    var Jake = Person(name: "Jake", age: 14)
+    var Lily = Person(name: "Lily", age: 14)
+    var Max = Person(name: "Max", age: 14)
     print("Our friends have returned to town to face the evil darkness, Alex and the gang have gained the power to defeat the dark entity. ")
     // summary: "Their heroic deeds saved not only their town but the entire world from the ancient evil's threat. The town welcomed them back as heroes, celebrating their bravery and unwavering spirit. The teenagers, once just ordinary kids, were now known as the saviors of their town, forever immortalized in the annals of history as The Guardians of Light. Their journey had transformed them, not only into heroes but also into lifelong friends, forever bound by the memory of their epic quest.")
           
@@ -59,7 +77,15 @@ func chapterFive() {
           print("Alex humbly nodded, acknowledging their words. 'But it was your strength and courage that made the difference.'")
 
           print("With a sense of unity and shared accomplishment, they gathered in a circle, each placing a hand on the shoulder of the person next to them.")
+    
+    // Use this towards the circle ending
+    let friends = ["Name", "Name2", "Name3", "Name4", "Name5"]
 
+    for friend in friends {
+        let sparklyFriend = "✨\(friend)✨"
+        print("Hey, \(sparklyFriend), please come to my party on Friday!")
+    }
+    print("Done, all friends have been invited.")
           print("'I believe our journey has given us more than just victory, Mia said.' 'It has given us a power we never knew we had.'")
 
           print("Max, his eyes alight with realization, added, 'The power of friendship, unity, and unwavering belief in each other.'")
