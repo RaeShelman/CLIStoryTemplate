@@ -14,3 +14,5 @@ func readStory() {
 }
 
 readStory()
+
+// Add more struc's for each chapter of the story

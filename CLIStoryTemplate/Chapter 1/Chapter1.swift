@@ -4,9 +4,13 @@
 //
 
 import Foundation
-
 func chapterOne() {
-    
+    struct Ancientbook {
+        var year: Int
+        var make: String
+        var color: String
+    }
+    _ = Ancientbook(year: <#T##Int#>, make: <#T##String#>, color: <#T##String#>)
     let storyTitle = "The Quest for Darkness"
     let nameOfCharacterOne = "Alex"
     let nameOfCharacterTwo = "Mia"
@@ -36,8 +40,16 @@ func chapterOne() {
         print (storyTitle)
         let alexlive = ["town", "hills", "forest"]
         let num = [1, 5, 2]
+    }
         
-        
+    //  print ("  Intrigued and inspired by the heroic stories they read, the teenagers decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
+    
+    // The shadowLord has awaken fromo his 1000 year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness. 
+    //
+    func Introduction (){
+        print(storyTitle)
+        print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
+        print("Alex had always been curious about the mysteries hidden in their town's history and was known for their insatiable appetite for exploration.")
     }
     
     func cityBuilding (housesHeight: Int){

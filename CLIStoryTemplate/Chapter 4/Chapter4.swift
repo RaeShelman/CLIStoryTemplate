@@ -4,13 +4,19 @@
 //
 
 import Foundation
-let storyTitle = "The Quest for Darkness"
+ 
+    
+//let storyTitle = "The Quest for Darkness"
 let numberOfCharacterRemaining = 5
 var shadowlorddefeated = true
 var numberOfProjectiles = 12
+var listOfTools = ["Backpacks", "Flashlight", "Compass", "Shield"]
 var notwearingshields = false
 var wearingShields = true
-func chapterFour() {
+struct Ragdoll {
+    func silence() {
+        print("...")
+    func chapterFour() {
     // Your portion of the story goes here
     // Summary goes here
     
@@ -22,10 +28,18 @@ func chapterFour() {
         // The creature is defeated.
     }
     print("The group of five teenagers, known as The Guardians of Light, ventured deeper into the heart of the ancient forest, their path shrouded in darkness.")
+    print("Along the way, the group stumbled across a worn out rag doll and put it in their inventory. ")
+    
+    listOfTools.append("Rag doll")
+    let fido = Ragdoll()
+    fido.silence()
+    //...    // Possibly from the last group who was here.
+    
     print("As the group ventured through the forest, projectiles started coming towards them.")
     print("The group managed to dodge each projectile with there shields")
     print("The force from the shields deflected the Shadowlord's attacks.")
     
+     
     if wearingShields && notwearingshields {
         // The Guardians of Light were able to dodge the projectiles and continue their adventure.
     }
