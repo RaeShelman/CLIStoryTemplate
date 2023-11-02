@@ -5,12 +5,18 @@
 
 import Foundation
 
-// Arrays, Sets
+enum Direction {
+    case north, south, east, west
+    case northeast, northwest, central
+}
 
+enum CommonObjects {
+    case backpack, coat, hat, flashlight
+}
 var myTitle: String = "The Quest for Darkness"
 //func doSomething(value: String, title2: String)) {
 //}
-let people = ["kyle, ken"]
+let people = ["kyle, ken"];
 //do Something(value: (myTitle, myTitle2))
 
 //Custom data model
@@ -79,13 +85,13 @@ func chapterFive() {
           print("With a sense of unity and shared accomplishment, they gathered in a circle, each placing a hand on the shoulder of the person next to them.")
     
     // Use this towards the circle ending
-    let friends = ["Name", "Name2", "Name3", "Name4", "Name5"]
+//    let friends = ["Name", "Name2", "Name3", "Name4", "Name5"]
 
-    for friend in friends {
-        let sparklyFriend = "✨\(friend)✨"
-        print("Hey, \(sparklyFriend), please come to my party on Friday!")
-    }
-    print("Done, all friends have been invited.")
+//    for friend in friends {
+//        let sparklyFriend = "✨\(friend)✨"
+//        print("Hey, \(sparklyFriend), please come to my party on Friday!")
+    
+//    print("Done, all friends have been invited.")
           print("'I believe our journey has given us more than just victory, Mia said.' 'It has given us a power we never knew we had.'")
 
           print("Max, his eyes alight with realization, added, 'The power of friendship, unity, and unwavering belief in each other.'")

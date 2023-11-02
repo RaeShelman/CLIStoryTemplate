@@ -19,6 +19,10 @@ struct Ragdoll {
     }
 }
 
+enum direction {
+    case north, south, east, west
+}
+
 
 func chapterFour() {
     // Your portion of the story goes here
@@ -31,6 +35,11 @@ func chapterFour() {
     if numberOfProjectiles == 12 {
         // The creature is defeated.
     }
+    
+     print("Reaching the Heart of the forest")
+    
+    var _: direction = .north
+    
     print("The group of five teenagers, known as The Guardians of Light, ventured deeper into the heart of the ancient forest, their path shrouded in darkness.")
     print("Along the way, the group stumbled across a worn out rag doll and put it in their inventory. ")
     
