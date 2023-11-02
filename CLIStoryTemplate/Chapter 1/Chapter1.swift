@@ -10,7 +10,6 @@ func chapterOne() {
         var make: String
         var color: String
     }
-    _ = Ancientbook(year: <#T##Int#>, make: <#T##String#>, color: <#T##String#>)
     let storyTitle = "The Quest for Darkness"
     let nameOfCharacterOne = "Alex"
     let nameOfCharacterTwo = "Mia"

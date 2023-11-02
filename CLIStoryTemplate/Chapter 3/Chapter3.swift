@@ -6,7 +6,7 @@
 import Foundation
 
 //luke-chapter-3-new
-
+//Variables, Constants, Types, and Comments
 class LukesStory{
     static let standard: LukesStory = LukesStory(skillone: "archer", skillTwo:"warrior", skillthree: "healer", skillfour: "connection with nature")
     var skillone: String
@@ -18,14 +18,56 @@ class LukesStory{
         self.skillTwo = skillTwo
         self.skillthree = skillthree
         self.skillfour = skillfour
-        
+        //Loop
+        let group = [
+        "Alex": "brilliant strategist",
+        "Mia": "skilled archer",
+        "Jake": "fearless warrior",
+        "Lily": "talented healer",
+        "Max": "deep connection with nature"
+        ]
+        for (member, skill) in group {
+            print("\(member) is a \(skill).")
+        }
+        //Array
+        var a = "Max"
+        var b = "Mia"
+        var c = "Lily"
+        var d = "jake"
+        a = "characters" + a
+        var myArray:[String] = ["max", "Mia", "lily", "Jake"]
+        for name in myArray {
+            print(name)
+        }
     }
+    //Enum
+        enum RulesOfTravel {
+            case noDanger
+            case noise
+            case sight
+        }
+    //function
+        func direction(rulesoftravel: RulesOfTravel) {
+            switch rulesoftravel {
+            case .noDanger:
+                print("Go")
+            case .noise:
+                print("slow down and look")
+            case .sight:
+                print("Stop and look!")
+                
+            }
+    }
+    
+
 }
+//Struct
 struct ShadowLordBeast {
     func roar() {
         print("Roar")
     }
 }
+//Constant and function
 let therewasabigbeast = 1
 func chapterThree(){
     // Your portion of the story goes here
@@ -79,7 +121,7 @@ func chapterThree(){
 
     print("Everyone went to check on jack to see if he was ok. And luckly all he had was a small scratch on his arm")
     
-    //else if statements below
+    //else if statements below/ Conditional
     if therewasabigbeast >= 1 {
         print("They had to fight and kill this big beast")
     } else {
@@ -158,6 +200,5 @@ func chapterThree(){
     //print("In the nick of time, Mia regained her footing, retrieved an arrow, and, with remarkable precision, dispatched the creature with a single shot to the head.")
    // print("Mia: Take that, you beast!")
    // print("Their heart-pounding ordeal concluded as the mysterious creature fell lifeless, sparing Jake from its deadly bite.")
-}
  
 
