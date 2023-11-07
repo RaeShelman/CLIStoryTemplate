@@ -64,7 +64,7 @@ func chapterFive() {
     _ = Person(name: "Jake", age: 14)
     _ = Person(name: "Lily", age: 14)
     _ = Person(name: "Max", age: 14)
-//    print("Our friends have returned to town to face the evil darkness, Alex and the gang have gained the power to defeat the dark entity. ")
+    print("Our friends have returned to town to face the evil darkness, Alex and the gang have gained the power to defeat the dark entity. ")
     // summary: "Their heroic deeds saved not only their town but the entire world from the ancient evil's threat. The town welcomed them back as heroes, celebrating their bravery and unwavering spirit. The teenagers, once just ordinary kids, were now known as the saviors of their town, forever immortalized in the annals of history as The Guardians of Light. Their journey had transformed them, not only into heroes but also into lifelong friends, forever bound by the memory of their epic quest.")
           
             print("*NARRATOR SPEAKING*")

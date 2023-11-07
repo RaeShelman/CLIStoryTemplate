@@ -96,10 +96,6 @@ func chapterFour() {
     if shadowlorddefeated == false {
         // The shadow lord has given our heroes a difficult time.
     }
-    else {
-        print("Despite their efforts, the battle against the Shadowlord was grueling. The evil was too powerful.")
-        print("The Guardians of Light were forced to retreat, knowing they needed more strength and wisdom to face the malevolent force.")
-        print("The shadow lord has given our heroes a tough time, wounded one of the party members.")
     }
     //    # Character Dialogue
     print("\nAlex: We underestimated the Shadowlord.")
