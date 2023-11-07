@@ -4,7 +4,7 @@
 //
 
 import Foundation
-
+//
 
 let storyTitle = "The Quest for Darkness"
 let numberOfCharacters = 5
