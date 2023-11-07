@@ -25,65 +25,73 @@ let JakeAbility = "warrior"
 let LilyAbility = "healer"
 let MaxAbility = "nature boy"
 let obstacles = ["Thorny Vines", "Quicksand Pits","Enchanted Trees", "Misty Illusions", "Dark Creatures"]
-func chapterTwo() {
+
+
+
+struct Compass {
+    var direction: Direction
     
-    
-    
-    func performAbilityStrategist(nameOfCharacter: String){
-        print("strategist")
+    init(direction: Direction) {
+        self.direction = direction
     }
-    performAbilityStrategist(nameOfCharacter: "Alex")
     
-    func performAbilityArcher(nameOfCharacter: String){
-        print("archer")
+    func turn(dirction: Direction) {
     }
-    performAbilityArcher(nameOfCharacter:"Mia")
-    
-    func performAbilityWarrior(nameOfCharacter: String){
-        print("warrior")
-    }
-    performAbilityWarrior(nameOfCharacter: "Jake")
-    
-    func performAbilityHealer(nameOfCharacter: String){
-        print("healer")
-    }
-    performAbilityHealer(nameOfCharacter: "Lily")
-    
-    func performAbilityNatureboy(nameOfCharacter: String){
-        print("nature boy")
-    }
-    performAbilityNatureboy(nameOfCharacter: "Max")
-    
-    // Your portion of the story goes here
-    print ("The journey was far from easy. As they ventured deeper into the dense, ancient forest, they encountered a series of traps and challenges. Vicious, thorny vines snaked across their path, attempting to ensnare them, while treacherous quicksand pits threatened to swallow them whole. Yet, the group's courage and unwavering friendship helped them overcome these obstacles.")
-    
-    
-    
-    //put dig
-    
-    
-    print ("Their bond grew stronger as they delved further into the forest, and their belief in their mission remained unshaken. Each member of the group had a unique skill that proved invaluable: there was Alex, the brilliant strategist; Mia, a skilled archer; Jake, a fearless warrior; Lily, a talented healer; and Max, who possessed a deep connection with nature.")
-    
-    
-    
-    //The journey was far from easy. As they ventured deeper into the dense, ancient forest,
-    
-    //they encountered a series of traps and challenges.
-    //
-    //    print("The journey was far from easy. As they ventured deeper into the dense, ancient forest,")
-    //    print("they encountered a series of traps and challenges.")
-    
-    //Dialogue and character reactions
-    
-    
-    
-    for obstacle in obstacles {
-        print("The characters are presented with \(obstacles) in the forest.")
+}
+    func chapterTwo() {
         
-        if obstacle == "Thorny Vines" {
-            print("The trechous vines has caused our group to slow down")
+        
+        
+        func performAbilityStrategist(nameOfCharacter: String){
+            print("strategist")
         }
-    }
+        performAbilityStrategist(nameOfCharacter: "Alex")
+        
+        func performAbilityArcher(nameOfCharacter: String){
+            print("archer")
+        }
+        performAbilityArcher(nameOfCharacter:"Mia")
+        
+        func performAbilityWarrior(nameOfCharacter: String){
+            print("warrior")
+        }
+        performAbilityWarrior(nameOfCharacter: "Jake")
+        
+        func performAbilityHealer(nameOfCharacter: String){
+            print("healer")
+        }
+        performAbilityHealer(nameOfCharacter: "Lily")
+        
+        func performAbilityNatureboy(nameOfCharacter: String){
+            print("nature boy")
+        }
+        performAbilityNatureboy(nameOfCharacter: "Max")
+        
+        // Your portion of the story goes here
+        //    print ("The journey was far from easy. As they ventured deeper into the dense, ancient forest, they encountered a series of traps and challenges. Vicious, thorny vines snaked across their path, attempting to ensnare them, while treacherous quicksand pits threatened to swallow them whole. Yet, the group's courage and unwavering friendship helped them overcome these obstacles.")
+        
+        //    print ("Their bond grew stronger as they delved further into the forest, and their belief in their mission remained unshaken. Each member of the group had a unique skill that proved invaluable: there was Alex, the brilliant strategist; Mia, a skilled archer; Jake, a fearless warrior; Lily, a talented healer; and Max, who possessed a deep connection with nature.")
+        
+        
+        
+        //The journey was far from easy. As they ventured deeper into the dense, ancient forest,
+        
+        //they encountered a series of traps and challenges.
+        //
+        //    print("The journey was far from easy. As they ventured deeper into the dense, ancient forest,")
+        //    print("they encountered a series of traps and challenges.")
+        
+        //Dialogue and character reactions
+        
+        
+        print("The characters are presented with \(obstacles.joined(separator: ", ")) in the forest.")
+        for obstacle in obstacles {
+            
+            
+            if obstacle == "Thorny Vines" {
+                print("The trechous vines has caused our group to slow down")
+            }
+        }
         
         for character in characters {
             
@@ -162,6 +170,7 @@ func chapterTwo() {
     //} else if condition {
     //
     //}
+    
     
     
 
