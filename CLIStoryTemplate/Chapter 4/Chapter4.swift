@@ -36,7 +36,7 @@ func chapterFour() {
         // The creature is defeated.
     }
     
-     print("Reaching the Heart of the forest")
+    print("Reaching the Heart of the forest")
     
     var _: direction = .north
     
@@ -96,16 +96,5 @@ func chapterFour() {
     if shadowlorddefeated == false {
         // The shadow lord has given our heroes a difficult time.
     }
-    }
-    //    # Character Dialogue
-    print("\nAlex: We underestimated the Shadowlord.")
-    print("Mia: We'll return stronger and better prepared.")
-    print("Jake: This isn't over; we'll be back.")
-    print("Lily: Our journey will continue.")
-    print("Max: Nature will guide us next time.")
-    
-    //   if "__name__" == "__main__": {
-    // main()
 }
-
 //These are out story templetes, Now it's time to our thesis into a story.
