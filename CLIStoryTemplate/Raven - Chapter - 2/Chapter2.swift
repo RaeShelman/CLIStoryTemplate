@@ -84,7 +84,7 @@ struct Compass {
         //Dialogue and character reactions
         
         
-        print("The characters are presented with \(obstacles) in the forest.")
+        print("The characters are presented with \(obstacles.joined(separator: ", ")) in the forest.")
         for obstacle in obstacles {
             
             
