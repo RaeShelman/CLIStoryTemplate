@@ -10,6 +10,7 @@ func chapterOne() {
         var make: String
         var color: String
     }
+
     struct Characters {
         let name: String
         let age: Int
@@ -25,6 +26,22 @@ func chapterOne() {
     let housesHeight = 2
     let libraryHeight = 3
     let storyTitle = "The Quest for Darkness"
+
+    let storyTitle = "The Quest for Darkness"
+    _ = "Alex"
+    _ = "Mia"
+    _ = "Jake"
+    _ = "Lily"
+    _ = "Max"
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = true
+    _ = 5
+    _ = 2
+    _ = 3
     
    
     
@@ -33,6 +50,19 @@ func chapterOne() {
     let yearSleep = ( 100, 500, 1000)
     print ("The shadowLord has awaken fromo his \(yearSleep.2) year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness.")
     
+
+
+    func introduction (){
+        print (storyTitle)
+        _ = ["town", "hills", "forest"]
+        _ = [1, 5, 2]
+    }
+        
+    //  print ("  Intrigued and inspired by the heroic stories they read, the teenagers decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
+    
+    // The shadowLord has awaken fromo his 1000 year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness. 
+    //
+
     func Introduction (){
         print(storyTitle)
         print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
