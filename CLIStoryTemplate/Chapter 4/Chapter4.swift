@@ -36,7 +36,8 @@ func printMonthName(month: Int) {
         print("December")
     default:
         break
-    }
+    } // default:
+    // call something else
 }
 
 //let storyTitle = "The Quest for Darkness"
@@ -50,6 +51,9 @@ var wearingHat = true
 var wearingTShirt = false
 var hobby = "decoding"
 let accuracyRange = 1...20
+let russianText = "Путь появится силой света"
+let ukrainianString = "Друзі - це ключ до напряму"
+
 
 let mass: Float = 3
 let c: Float = 9
@@ -142,6 +146,22 @@ func chapterFour() {
             print("Jake, the fearless warrior, agreed, 'Let's try adding them together and see what happens.'")
 
             let artifactResult = addTwoNumbers(numberOne: 5, numberTwo: 10)
+        
+        print("As the group figured how to decode the number, there was another code that appear, this time in another language")
+        print("Alex, our brilliant strategist realize that this code was in Russian language")
+        
+        
+        
+        
+        print(russianText)
+        
+        print("Alex with being bilingual was able to translate the text and decifer the code.")
+        print("As alex translated the Russian Text, the artificant changed into another language this time in Ukrainian text")
+        
+        print(ukrainianString)
+        
+        print("Little does one know, Alex is actually fluent in Ukrainian.")
+        print("Alex, the text translates to, 'Friends are the key to direction.' ")
 
             print("The artifact's symbols began to glow, revealing a hidden passage leading further into the forest. The Guardians followed the new path.")
 
