@@ -41,16 +41,7 @@ func chapterOne() {
 
 
 
-    func introduction (){
-     //   print (storyTitle)
-        _ = ["town", "hills", "forest"]
-        _ = [1, 5, 2]
-    }
-        
-    //  print ("  Intrigued and inspired by the heroic stories they read, the teenagers decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
-    
-    // The shadowLord has awaken fromo his 1000 year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness. 
-    //
+   
 
     func Introduction (){
      //   print(storyTitle)
