@@ -29,26 +29,14 @@ func chapterOne() {
 
 
    
-    
 
-   
-    
-    let teenagers  = ("Alex","Mia","Jake","Lily", "Max")
-    print ("Intrigued and inspired by the heroic stories they read, the teenagers\(teenagers.0),\(teenagers.1),\(teenagers.2),\(teenagers.3)\(teenagers.4)decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
-    let yearSleep = ( 100, 500, 1000)
-    print ("The shadowLord has awaken fromo his \(yearSleep.2) year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness.")
-    
-
-
-
-   
 
     func Introduction (){
      //   print(storyTitle)
-        print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
-        print("Alex had always been curious about the mysteries hidden in their town's history and was known for their insatiable appetite for exploration.")
-    }
-    
+//        print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
+//        print("Alex had always been curious about the mysteries hidden in their town's history and was known for their insatiable appetite for exploration.")
+//    }
+//    
     func cityBuilding (housesHeight: Int){
         if housesHeight >= 2 {
             print ("One sunny morning, while taking a stroll through the town's charming streets, Alex stumbled upon an ancient, forgotten library.The library had stood there for centuries, but few ever ventured inside. Its doors creaked open as Alex pushed their way in.")
@@ -102,6 +90,12 @@ func chapterOne() {
         print("The story described a mythical evil that had once terrorized their peaceful town ages ago.")
     }
     readingTheFirstPage ()
+    
+    
+    let teenagers  = ("Alex","Mia","Jake","Lily", "Max")
+    print ("Intrigued and inspired by the heroic stories they read, the teenagers\(teenagers.0),\(teenagers.1),\(teenagers.2),\(teenagers.3),\(teenagers.4) decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
+    let yearSleep = ( 100, 500, 1000)
+    print ("The shadowLord has awaken fromo his \(yearSleep.2) year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness.")
    
     func shadowlord () {
  
