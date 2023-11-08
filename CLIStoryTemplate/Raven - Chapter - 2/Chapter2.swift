@@ -6,7 +6,7 @@
 import Foundation
 //
 
-let storyTitle = "The Quest for Darkness"
+//let storyTitle = "The Quest for Darkness"
 let numberOfCharacters = 5
 let forestName = "The dense, ancient forest"
 
@@ -123,6 +123,40 @@ func areTheySafe(People: CharacterDetails) -> Bool {
             
         }
         
+        if character == "Jake" {
+            print("No challenge is too great for us! We'll conquer these obstacles together!")
+        }
+        
+        if character == "Lily" {
+            print("If anyone gets hurt, I'm here to heal your wounds. We can do this!")
+        }
+        
+        if character == "Max" {
+            print("Nature will guide us. Trust the forest, and it will protect us.")
+        }
+        
+        
+        
+        print("Vicious, thorny vines snaked across their path, attempting to ensnare them,")
+        print("while treacherous quicksand pits threatened to swallow them whole.")
+        
+        
+        print("{character}:"," ")
+        if character == "Alex"{
+            print("Watch your step, and keep those vines at bay!")
+        }
+        else if character == "Mia"{
+            print("Arrows at the ready! I'll clear a path through the vines.")
+        }
+        else if character == "Jake" {
+            print("I've got a plan. Lily, Max, stay close, and we'll navigate the quicksand safely.")
+        }
+        else if character == "Lily" {
+            print("Don't worry; I'll mend any scrapes and bruises along the way.")
+        }
+        else if character == "Maź" {
+            print("Nature, lend us your strength to overcome these obstacles!")
+        }
         
         
         
