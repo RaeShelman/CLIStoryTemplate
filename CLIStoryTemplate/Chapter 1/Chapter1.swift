@@ -10,42 +10,29 @@ func chapterOne() {
         var make: String
         var color: String
     }
-    _ = Ancientbook(year: <#T##Int#>, make: <#T##String#>, color: <#T##String#>)
-    let storyTitle = "The Quest for Darkness"
-    let nameOfCharacterOne = "Alex"
-    let nameOfCharacterTwo = "Mia"
-    let nameOfCharacterThree = "Jake"
-    let nameOfCharacterFour = "Lily"
-    let nameOfCharacterFive = "Max"
-    var AlexAge = 14
-    var MiaAge = 14
-    var JakeAge = 14
-    var LilyAge = 14
-    var MaxAge = 14
-    let AlexEyesisblue = true
+    struct Characters {
+        let name: String
+        let age: Int
+        let eyesColor: String
+        
+    }
+    let Alex = Characters (name: "Alex", age: 14, eyesColor: "blue")
+    let Mia = Characters (name: "Mia", age: 14, eyesColor: "black")
+    let Jake = Characters (name: "Jake", age: 14, eyesColor: "green")
+    let Lily = Characters (name: "Lily", age: 14, eyesColor: "blue")
+    let Max = Characters (name: "Max", age: 14, eyesColor: "brown")
     let numberOfCharacters = 5
     let housesHeight = 2
     let libraryHeight = 3
+    let storyTitle = "The Quest for Darkness"
     
+   
     
-    // func introduction () {
-    //   print(storyTitle)
-    // print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
-    // print("Alex had always been curious about the mysteries hidden in their town's history and was known for their insatiable appetite for exploration.")
+    let teenagers  = ("Alex","Mia","Jake","Lily", "Max")
+    print ("Intrigued and inspired by the heroic stories they read, the teenagers\(teenagers.0),\(teenagers.1),\(teenagers.2),\(teenagers.3)\(teenagers.4)decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
+    let yearSleep = ( 100, 500, 1000)
+    print ("The shadowLord has awaken fromo his \(yearSleep.2) year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness.")
     
-    // }
-    //introduction()
-    
-    func introduction (){
-        print (storyTitle)
-        let alexlive = ["town", "hills", "forest"]
-        let num = [1, 5, 2]
-    }
-        
-    //  print ("  Intrigued and inspired by the heroic stories they read, the teenagers decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
-    
-    // The shadowLord has awaken fromo his 1000 year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness. 
-    //
     func Introduction (){
         print(storyTitle)
         print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
@@ -58,48 +45,26 @@ func chapterOne() {
             print ("One sunny morning, while taking a stroll through the town's charming streets, Alex stumbled upon an ancient, forgotten library.The library had stood there for centuries, but few ever ventured inside. Its doors creaked open as Alex pushed their way in.")
         }
         else {
-            print ("The library was located in the city center, it was only the 3 -story buoilding in a city with 2 -story houses")
+            print ("The library was located in the city center")
         }
     }
+    
     cityBuilding (housesHeight: 2)
-    
-    //func smallTown (oldCity: Int, hills: Int, forests: Int, street: Int, houses: Int, building: Int)  {
-    //  var city = [oldCity, hills, forests, street, houses, building ]
-    //     var cCity = [1, 6, 1, 17, 165, 5]
-    
-    
-    
-    
     let height = (houses: 2.0, library: 3.0)
     let houses = 2.5
     let library = 4.0
     let altHouses = height.houses * houses
     let altLibrary = height.library * library
+    
     func alt() {
         if altHouses > altLibrary {
             print ("The library was the smallest buuilding in the city")
         }
         else {
-            print ( "The library was the largest building in the city")
+            print ( "The library was the largest and oldest building in the city.")
         }
     }
     alt()
-    
-    func discoveryOfTheLibrary () {
-        print("One sunny morning, while taking a stroll through the town's charming streets, Alex stumbled upon an ancient, forgotten library.")
-        print("The library had stood there for centuries, but few ever ventured inside. Its doors creaked open as Alex pushed their way in.")
-    }
-   // discoveryOfTheLibrary ()
-    
-    
-    
-    
-    func findingTheMysteriousBook(){
-        
-        print("Amidst dusty shelves and forgotten tomes, in the war section Alex's eyes landed on a peculiar, dusty old book.")
-        print("With an air of anticipation, they carefully pulled it from the shelf and blew away a cloud of dust.")
-    }
-    // findingTheMysteriousBook()
     
     enum librarySection {
         case math, biology, history, geography, artHistory, fiction, war
@@ -107,50 +72,62 @@ func chapterOne() {
     func findBook ( section: librarySection) {
         switch section {
         case .math, .biology, .geography:
-            print ("Alex ran his eyesalong the shelves, but didn't notice anything interesting")
+            print ("Alex ran his eyesalong the shelves, but didn't notice anything interesting, after Alex paid attention to the war section and went towards it")
             
         case .history, .artHistory, .fiction:
-            print (" Alex looked at a couple of book and put them back ")
+            print (" Alex looked at a couple of book and put them back, after Alex paid attention to the war section and went towards it.")
         case .war:
-            print ("Amidst dusty shelves and forgotten tomes, in the war section Alex's eyes landed on a peculiar, dusty old book.")
-        
+            print ("Amidst dusty shelves and forgotten tomes, in the war section Alex's eyes landed on a peculiar, dusty old book. With an air of anticipation, they carefully pulled it from the shelf and blew away a cloud of dust.")
+            
         }
     }
     findBook ( section: .war)
     
     func  readingTheFirstPage () {
+        print ("Alex opened the book. The pages were completely white. The words began to appear")
         
-        print("As they opened the book, the words on the first page began to reveal a long-lost tale.")
+        var name: String?  = nil
+        let defaulName = "Guest"
+        let nameForGreeting = name ?? defaulName
+        print ("Hi,\(nameForGreeting). You are the chosen one to defeat evil")
+        name = "Alex"
+        print(" The words on the first page began to reveal a long-lost tale.")
         print("The story described a mythical evil that had once terrorized their peaceful town ages ago.")
     }
-     readingTheFirstPage ()
-    
-    
-    func aDarkForceNamedTheShadowlord () {
+    readingTheFirstPage ()
+   
+    func shadowlord () {
+ 
         
-        print("Intrigued, Alex continued reading and learned about 'The Shadowlord', a malevolent force that was said to have threatened not only the town but the entire world.")
-        print("As the words unfolded, Alex's heart raced with excitement and trepidation, realizing that they were about to embark on a life-changing adventure.")
-    }
-    aDarkForceNamedTheShadowlord ()
-    
-    func conclusion () {
+        print (" The tale spoke of a time when darkness blanketed the land, and the people lived in constant fear. The town had barely survived, but the evil force, known as 'The Shadowlord,' had never been truly defeated. It was said to have retreated to the heart of an ancient, dense forest that surrounded their town. ")
         
-        print("With newfound determination, Alex closed the book, ready to share their discovery with the world.")
-        print("The sleepy town was about to awaken to a new chapter, and Alex was its protagonist, destined to confront 'The Shadowlord' and unveil the secrets hidden in their town's history.")    // Your portion of the story goes here
+        print ("The legend described how the Shadowlord's powers were connected to the very heart of the forest, where it drew strength from the ancient trees and mysterious creatures that dwelled there.")
+        
     }
-     conclusion ()
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    // print ("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, a group of five teenagers stumbled upon a mysterious, dusty old book in the town's long-forgotten library. The book was filled with tales of a mythical evil that had once terrorized their peaceful town centuries ago. The evil, known as 'The Shadowlord', was said to be a dark force that threatened to consume not only the town but the entire world.")
-    
-    //  print ("  Intrigued and inspired by the heroic stories they read, the teenagers decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
-    //
-}
+
+        
+        func aDarkForceNamedTheShadowlord () {
+            
+            print("Intrigued, Alex continued reading and learned about 'The Shadowlord', a malevolent force that was said to have threatened not only the town but the entire world.")
+            print("As the words unfolded, Alex's heart raced with excitement and trepidation, realizing that they were about to embark on a life-changing adventure.")
+        }
+        aDarkForceNamedTheShadowlord ()
+        
+        func conclusion () {
+            
+            print("With newfound determination, Alex closed the book, ready to share their discovery with the world.")
+            print("The sleepy town was about to awaken to a new chapter, and Alex was its protagonist, destined to confront 'The Shadowlord' and unveil the secrets hidden in their town's history.")    // Your portion of the story goes here
+        }
+        conclusion ()
+    }
+
+
+
+//    func introduction (){
+//        print (storyTitle)
+//        let alexlive = ["town", "hills", "forest"]
+//        let num = [1, 5, 2]
+//    }
+//func smallTown (oldCity: Int, hills: Int, forests: Int, street: Int, houses: Int, building: Int)  {
+//  var city = [oldCity, hills, forests, street, houses, building ]
+//     var cCity = [1, 6, 1, 17, 165, 5]
