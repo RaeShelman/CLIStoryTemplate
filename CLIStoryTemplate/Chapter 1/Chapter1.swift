@@ -28,21 +28,7 @@ func chapterOne() {
    // let storyTitle = "The Quest for Darkness"
 
 
-    //let storyTitle = "The Quest for Darkness"
-    _ = "Alex"
-    _ = "Mia"
-    _ = "Jake"
-    _ = "Lily"
-    _ = "Max"
-    _ = 14
-    _ = 14
-    _ = 14
-    _ = 14
-    _ = 14
-    _ = true
-    _ = 5
-    _ = 2
-    _ = 3
+   
     
 
    
