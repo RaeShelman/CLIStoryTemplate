@@ -42,30 +42,30 @@ struct Compass {
         
         
         
-        func performAbilityStrategist(nameOfCharacter: String){
-            print("strategist")
-        }
-        performAbilityStrategist(nameOfCharacter: "Alex")
-        
-        func performAbilityArcher(nameOfCharacter: String){
-            print("archer")
-        }
-        performAbilityArcher(nameOfCharacter:"Mia")
-        
-        func performAbilityWarrior(nameOfCharacter: String){
-            print("warrior")
-        }
-        performAbilityWarrior(nameOfCharacter: "Jake")
-        
-        func performAbilityHealer(nameOfCharacter: String){
-            print("healer")
-        }
-        performAbilityHealer(nameOfCharacter: "Lily")
-        
-        func performAbilityNatureboy(nameOfCharacter: String){
-            print("nature boy")
-        }
-        performAbilityNatureboy(nameOfCharacter: "Max")
+//        func performAbilityStrategist(nameOfCharacter: String){
+//            print("strategist")
+//        }
+//        performAbilityStrategist(nameOfCharacter: "Alex")
+//        
+//        func performAbilityArcher(nameOfCharacter: String){
+//            print("archer")
+//        }
+//        performAbilityArcher(nameOfCharacter:"Mia")
+//        
+//        func performAbilityWarrior(nameOfCharacter: String){
+//            print("warrior")
+//        }
+//        performAbilityWarrior(nameOfCharacter: "Jake")
+//        
+//        func performAbilityHealer(nameOfCharacter: String){
+//            print("healer")
+//        }
+//        performAbilityHealer(nameOfCharacter: "Lily")
+//        
+//        func performAbilityNatureboy(nameOfCharacter: String){
+//            print("nature boy")
+//        }
+//        performAbilityNatureboy(nameOfCharacter: "Max")
         
         // Your portion of the story goes here
         //    print ("The journey was far from easy. As they ventured deeper into the dense, ancient forest, they encountered a series of traps and challenges. Vicious, thorny vines snaked across their path, attempting to ensnare them, while treacherous quicksand pits threatened to swallow them whole. Yet, the group's courage and unwavering friendship helped them overcome these obstacles.")

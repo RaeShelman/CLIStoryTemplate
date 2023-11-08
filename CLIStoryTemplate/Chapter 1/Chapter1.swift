@@ -11,20 +11,20 @@ func chapterOne() {
         var color: String
     }
     let storyTitle = "The Quest for Darkness"
-    let nameOfCharacterOne = "Alex"
-    let nameOfCharacterTwo = "Mia"
-    let nameOfCharacterThree = "Jake"
-    let nameOfCharacterFour = "Lily"
-    let nameOfCharacterFive = "Max"
-    var AlexAge = 14
-    var MiaAge = 14
-    var JakeAge = 14
-    var LilyAge = 14
-    var MaxAge = 14
-    let AlexEyesisblue = true
-    let numberOfCharacters = 5
-    let housesHeight = 2
-    let libraryHeight = 3
+    _ = "Alex"
+    _ = "Mia"
+    _ = "Jake"
+    _ = "Lily"
+    _ = "Max"
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = 14
+    _ = true
+    _ = 5
+    _ = 2
+    _ = 3
     
     
     // func introduction () {
@@ -37,8 +37,8 @@ func chapterOne() {
     
     func introduction (){
         print (storyTitle)
-        let alexlive = ["town", "hills", "forest"]
-        let num = [1, 5, 2]
+        _ = ["town", "hills", "forest"]
+        _ = [1, 5, 2]
     }
         
     //  print ("  Intrigued and inspired by the heroic stories they read, the teenagers decided to set out on a daring quest to defeat this mythical evil and protect their town. They called themselves The Guardians of Light and embarked on their epic journey armed with newfound knowledge and a determination to save their home.")
