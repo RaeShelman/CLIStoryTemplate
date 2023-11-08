@@ -100,7 +100,7 @@ func areTheySafe(People: CharacterDetails) -> Bool {
                // print("they noticed treacherous quicksand pits also threatened to swallow them whole.")
                 
             for character in characters {
-                print("{character}:"," ")
+                print("\(character):"," ")
                 if character == "Alex"{
                     print("Watch your step, and keep those vines at bay!")
                 }
