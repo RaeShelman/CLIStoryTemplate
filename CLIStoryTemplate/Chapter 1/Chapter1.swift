@@ -31,7 +31,7 @@ func chapterOne() {
    
 
 
-    func Introduction (){
+//    func Introduction (){
      //   print(storyTitle)
 //        print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
 //        print("Alex had always been curious about the mysteries hidden in their town's history and was known for their insatiable appetite for exploration.")
@@ -83,12 +83,14 @@ func chapterOne() {
         
         var name: String?  = nil
         let defaulName = "Guest"
+        name = "Alex"
         let nameForGreeting = name ?? defaulName
         print ("Hi,\(nameForGreeting). You are the chosen one to defeat evil")
-        name = "Alex"
+        
         print(" The words on the first page began to reveal a long-lost tale.")
         print("The story described a mythical evil that had once terrorized their peaceful town ages ago.")
     }
+   
     readingTheFirstPage ()
     
     
