@@ -39,7 +39,7 @@ func printMonthName(month: Int) {
     }
 }
 
-let storyTitle = "The Quest for Darkness"
+//let storyTitle = "The Quest for Darkness"
 var shadowlordDefeated = true
 var numberOfProjectiles = 123
 var listOfTools = ["Backpacks", "Flashlight", "Compass", "Shield"]

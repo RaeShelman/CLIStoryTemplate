@@ -25,9 +25,9 @@ func chapterOne() {
     let numberOfCharacters = 5
     let housesHeight = 2
     let libraryHeight = 3
-    let storyTitle = "The Quest for Darkness"
+   // let storyTitle = "The Quest for Darkness"
 
-    let storyTitle = "The Quest for Darkness"
+    //let storyTitle = "The Quest for Darkness"
     _ = "Alex"
     _ = "Mia"
     _ = "Jake"
@@ -53,7 +53,7 @@ func chapterOne() {
 
 
     func introduction (){
-        print (storyTitle)
+     //   print (storyTitle)
         _ = ["town", "hills", "forest"]
         _ = [1, 5, 2]
     }
@@ -64,7 +64,7 @@ func chapterOne() {
     //
 
     func Introduction (){
-        print(storyTitle)
+     //   print(storyTitle)
         print("Once upon a time, in a small, quiet town nestled amidst rolling hills and ancient forests, there lived a determined young adventurer named Alex.")
         print("Alex had always been curious about the mysteries hidden in their town's history and was known for their insatiable appetite for exploration.")
     }
