@@ -27,6 +27,7 @@ func chapterOne() {
     let libraryHeight = 3
    // let storyTitle = "The Quest for Darkness"
 
+
     //let storyTitle = "The Quest for Darkness"
     _ = "Alex"
     _ = "Mia"
@@ -43,6 +44,7 @@ func chapterOne() {
     _ = 2
     _ = 3
     
+
    
     
     let teenagers  = ("Alex","Mia","Jake","Lily", "Max")
@@ -50,6 +52,7 @@ func chapterOne() {
     let yearSleep = ( 100, 500, 1000)
     print ("The shadowLord has awaken fromo his \(yearSleep.2) year sleep to seek revenge on the town of... His intention are further orchasterd on his intent to rule the entire world and fill it with darkness.")
     
+
 
 
     func introduction (){
@@ -70,11 +73,9 @@ func chapterOne() {
     }
     
     func cityBuilding (housesHeight: Int){
-        //let housesHeight = 2
         if housesHeight >= 2 {
             print ("One sunny morning, while taking a stroll through the town's charming streets, Alex stumbled upon an ancient, forgotten library.The library had stood there for centuries, but few ever ventured inside. Its doors creaked open as Alex pushed their way in.")
-        }
-        else {
+        }else {
             print ("The library was located in the city center")
         }
     }
@@ -89,8 +90,7 @@ func chapterOne() {
     func alt() {
         if altHouses > altLibrary {
             print ("The library was the smallest buuilding in the city")
-        }
-        else {
+        }else {
             print ( "The library was the largest and oldest building in the city.")
         }
     }
